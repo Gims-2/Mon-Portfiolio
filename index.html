@@ -54,14 +54,14 @@
     </section>
 
     <section id="contact">
-        <h2 class="title">Me Contacter</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Nom Complet" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Votre message..." rows="5" required></textarea>
-            <button type="submit" class="btn">Envoyer</button>
-        </form>
-    </section>
+    <h2 class="title">Me Contacter</h2>
+        <form action="contact.php" method="POST" class="contact-form">
+            <input type="text" name="nom" placeholder="Nom Complet" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Votre message..." rows="5" required></textarea>
+            <button type="submit" class="btn">Envoyer le message</button>
+    </form>
+   </section>
 
         <section id="contact">
         <h2>Contact</h2>
